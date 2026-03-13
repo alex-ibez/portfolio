@@ -1,26 +1,11 @@
+/* Reset básico para evitar espacios extra */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#exposicio-imatges {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
-    padding: 15px;
-}
-
-#exposicio-imatges img {
-    width: 100%;
-    height: 200px; 
-    object-fit: cover; 
-    /*border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);*/
-}
-
-/*HEADER*/
 .main-header {
   background-color: #001f3f; /* Azul Marino */
   color: #ffffff;
@@ -35,6 +20,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  color: #00d4ff; /* Un toque de azul claro para resaltar */
 }
 
 .nav-menu ul {
